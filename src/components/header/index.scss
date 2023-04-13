@@ -1,0 +1,24 @@
+.header-container{
+  height:60px;
+  width:100%;
+  // background:pink;
+  .header-box{
+    width:1200px;
+    margin: auto;
+    .content{
+      display: flex;
+      justify-content: space-between;
+      .ant-menu-horizontal{
+        border-bottom:none;
+      }
+      .ant-menu{
+        background:transparent;
+      }
+      .login{
+        margin-top:20px;
+        font-size: 16px;
+      }
+    }
+  }
+  
+}

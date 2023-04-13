@@ -1,0 +1,35 @@
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "experimentalDecorators":true,
+    "suppressImplicitAnyIndexErrors":false,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noImplicitAny": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    // "allowImportingTsExtensions":false,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*" : ["./src/*"]
+  }
+  },
+  "include": [
+    "src","types"
+  ],
+  // "exclude": ["./src/plugins","./src/assets/katex1"]
+}
